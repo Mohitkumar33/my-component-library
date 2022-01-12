@@ -7,6 +7,10 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
 /** container **/
 .container{
 
@@ -29,12 +33,14 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem
 }
+
 .link-primary{
     /* color: var(--primary-color); */
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
+
 .link-secondary{
     color: var(--primary-color);
     border-radius: 00.5rem;
