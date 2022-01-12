@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Open+Sans:wght@300;400&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap');
+:root{
+    --primary-color: red;
+}
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/** container **/
+.container{
+
+    padding: 0rem 1rem;  /*(top&bottom left&right)*/
+}
+
+.container-fluid{
+    /* it is same as container */
+
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem
+}
+.link-primary{
+    /* color: var(--primary-color); */
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 00.5rem;
+    border-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
