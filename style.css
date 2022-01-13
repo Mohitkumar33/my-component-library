@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Open+Sans:wght@300;400&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap');
 :root{
     --primary-color: red;
+    --gray:#94a3b8;
+    --light-gray:#e2e8f0;
 }
 
 body{
     font-family: 'Nanum Gothic', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -17,10 +20,10 @@ hr{
     padding: 0rem 1rem;  /*(top&bottom left&right)*/
 }
 
-.container-fluid{
-    /* it is same as container */
+/* .container-fluid{
+    it is same as container
 
-}
+} */
 
 .container-center{
     max-width: 600px;
@@ -46,4 +49,91 @@ hr{
     border-radius: 00.5rem;
     border-color: var(--primary-color);
     border: 1px solid var(--primary-color);
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/* header */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--light-gray);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
