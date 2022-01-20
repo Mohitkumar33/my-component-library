@@ -251,6 +251,13 @@ hr{
     cursor: pointer;
     
 }
+/*card 4*/
+.card-4-row-3 {
+    display: flex;
+    /* margin: 10px; */
+    /* justify-content: center; */
+    align-items: center;
+}
 
 /* footer */
 
