@@ -392,18 +392,21 @@ hr{
 .cards {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 40px;
+    margin-left: 10px;
+    
   }
   
   @media screen and (min-width: 500px) {
     .cards {
       grid-template-columns: 1fr 1fr;
+      margin-left: 20px;
     }
   }
   
   @media screen and (min-width: 800px) {
     .cards {
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-left: 40px;
     }
   }
 
