@@ -409,6 +409,33 @@ hr{
       margin-left: 40px;
     }
   }
+  /*chips*/
+
+chips button{
+    box-sizing: border-box;
+    padding: 10px 30px 10px 10px;
+    margin: 5px;
+    position: relative;
+    /* width: 70px; */
+    background-color: rgba(224, 220, 220, 0.932);
+    border: transparent;
+    border-radius: 20px;
+}
+.chip-icons {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    right: 5px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 50%;
+    color: white;
+}
+chips button:hover{
+    background-color: rgba(172, 168, 168, 0.932);
+}
+.chip-icons:hover {
+    background-color: rgb(53, 53, 53);
+}
 
 /* footer */
 
