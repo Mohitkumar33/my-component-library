@@ -438,31 +438,97 @@ chips button:hover{
 }
 
 /* dialogs */
+.dialogs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
 
+/* Alert dialog */
 .alert-dialog {
     height: 150px;
-    width: 300px;
-    background-color: gray;
-    position: relative;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 5px;
+    
+}
+.alert-dialog h2{
+    margin: 20px 10px 0px 10px;
+
+    
+}
+.alert-dialog h3{
+    margin: 20px 10px 0px 10px;
+    color: rgba(150, 147, 147, 0.767);
+    
 }
 
 .alert-dialog-content {
-position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.alert-dialog-buttons {
+    margin-left: auto;
+    margin-top: 20px;
 }
 
+.alert-dialog-buttons button{
+    padding: 10px;
+    color: rgb(170, 29, 206);
+    background-color: transparent;
+    font-weight: bold;
+    border: transparent;
+    font-size: 16px;
+}
+.alert-dialog-buttons button:hover{
+    background-color: rgba(218, 178, 228, 0.301);
+    border-radius: 5px;
+}
+
+/* simple dialog*/
+
 .simple-dialog {
-    height: 150px;
-    width: 300px;
-    background-color: gray;
+    height: 250px;
+    width: 200px;
+    background-color: white;
     position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 5px;
+    padding:0px 5px;
+    margin: 5px 5px;
 }
 
 .simple-dialog-content {
 position: absolute;
 }
+.simple-dialog-content h2{
+    margin-left: 10px;
+}
+.simple-dialog-icon {
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    margin-right: 5px;
+
+}
+.dialog-profile {
+    display: flex;
+    align-items: center;
+    /* background-color: brown; */
+    width: 200px;
+}
+.dialog-profile:hover {
+    background-color: rgba(148, 148, 202, 0.219);
+}
+.dialog-profile li{
+    list-style: none;
+}
+
+/* confirmation-dialog*/
 
 .confirmation-dialog {
-    height: 270px;
+    height: 280px;
     width: 230px;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.137);
@@ -498,14 +564,16 @@ flex-direction: column;
 
 }
 .confirmation-dialog-buttons button{
-    padding: 6px;
+    padding: 8px;
     color: rgb(170, 29, 206);
-    font-weight: bold;
     background-color: transparent;
+    font-weight: bold;
     border: transparent;
+    font-size: 16px;
 }
 .confirmation-dialog-buttons button:hover{
-    background-color: rgba(171, 29, 206, 0.301);
+    background-color: rgba(192, 125, 209, 0.301);
+    border-radius: 5px;
 }
 /* footer */
 
