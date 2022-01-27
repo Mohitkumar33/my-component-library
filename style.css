@@ -484,6 +484,7 @@ chips button:hover{
 .alert-dialog-buttons button:hover{
     background-color: rgba(218, 178, 228, 0.301);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* simple dialog*/
@@ -520,6 +521,7 @@ position: absolute;
 }
 .dialog-profile:hover {
     background-color: rgba(148, 148, 202, 0.219);
+    cursor: pointer;
 }
 .dialog-profile li{
     list-style: none;
@@ -574,6 +576,7 @@ flex-direction: column;
 .confirmation-dialog-buttons button:hover{
     background-color: rgba(192, 125, 209, 0.301);
     border-radius: 5px;
+    cursor: pointer;
 }
 /* footer */
 
