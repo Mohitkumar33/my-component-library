@@ -437,6 +437,76 @@ chips button:hover{
     background-color: rgb(53, 53, 53);
 }
 
+/* dialogs */
+
+.alert-dialog {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    position: relative;
+}
+
+.alert-dialog-content {
+position: absolute;
+}
+
+.simple-dialog {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    position: relative;
+}
+
+.simple-dialog-content {
+position: absolute;
+}
+
+.confirmation-dialog {
+    height: 270px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 5px;
+    /* position: relative; */
+    /* display: flex; */
+}
+.confirmation-dialog h2 {
+    margin: 0px 10px;
+    padding: 20px 0px 0px 0px;
+
+}
+.confirmation-dialog-content {
+display: flex;
+flex-direction: column;
+}
+.confirmation-dialog-content li{
+    padding: 6px;
+    }
+.confirmation-dialog-content ul{
+    width: 230px;
+    height: 150px;
+    overflow-y: scroll;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    border-top: 1px solid rgba(0, 0, 0, 0.137);
+    }
+.confirmation-dialog-content label{
+        padding: 10px;
+    }
+.confirmation-dialog-buttons{
+    margin-left: auto;
+    margin-right: 20px;
+
+}
+.confirmation-dialog-buttons button{
+    padding: 6px;
+    color: rgb(170, 29, 206);
+    font-weight: bold;
+    background-color: transparent;
+    border: transparent;
+}
+.confirmation-dialog-buttons button:hover{
+    background-color: rgba(171, 29, 206, 0.301);
+}
 /* footer */
 
 .footer {
@@ -451,6 +521,6 @@ chips button:hover{
     color: white;
 }
 
-.footer ul {
+.footer, .dialogs ul {
     padding-inline-start: 0px;
 }
